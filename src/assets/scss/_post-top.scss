@@ -1,0 +1,43 @@
+.post-container {
+  display: flex;
+  gap: 30px;
+  margin: 0 382px;
+
+  .post {
+    position: relative;
+
+    img {
+      max-width: 100%;
+      filter: brightness(94%);
+    }
+
+    .desc {
+      position: absolute;
+      left: 18px;
+      bottom: 26px;
+
+      .desc-meta {
+        margin-bottom: 10px;
+
+        .date {
+          color: #fff;
+          font-size: 14px;
+        }
+      }
+
+      .post-title {
+        font-weight: 700;
+        font-size: 22px;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
