@@ -1,0 +1,20 @@
+.post-main-container {
+  display: flex;
+  gap: 29px;
+
+  .post-main-left {
+    flex: 0 0 66%;
+    .post-thumb {
+
+    }
+
+    .post-main-small {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .post-main-right {
+    flex: 0 0 calc(34% - 29px);
+  }
+}

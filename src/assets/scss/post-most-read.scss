@@ -1,0 +1,31 @@
+.post-most-container {
+  .post-most-title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
+
+.post-most {
+  margin-top: 40px;
+  .post-small {
+    display: flex;
+    margin-bottom: 40px;
+
+    img {
+      width: 90px;
+      margin-right: 18px;
+    }
+
+    a {
+      font-size: 18px;
+      color: #000000;
+      text-decoration: none;
+      font-weight: 700;
+      line-height: 19.8px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

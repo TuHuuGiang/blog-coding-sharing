@@ -5,11 +5,17 @@
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
   margin: 0 382px;
 }
 
 .pt-40 {
   padding-top: 40px;
+}
+
+.w-3 {
+  width: calc(100% / 3 - 20px);
+}
+
+.w-2 {
+  width: calc(100% / 2 - 16px);
 }

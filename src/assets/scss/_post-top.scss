@@ -1,42 +1,47 @@
 .post-container {
   display: flex;
   gap: 30px;
-  margin: 0 382px;
+}
 
-  .post {
-    position: relative;
+.post {
+  position: relative;
 
-    img {
-      max-width: 100%;
-      filter: brightness(94%);
+  img {
+    display: block;
+    max-width: 100%;
+    filter: brightness(94%);
+  }
+
+  img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .desc {
+    position: absolute;
+    left: 18px;
+    bottom: 26px;
+
+    .desc-meta {
+      margin-bottom: 10px;
+
+      .date {
+        color: #fff;
+        font-size: 14px;
+      }
     }
 
-    .desc {
-      position: absolute;
-      left: 18px;
-      bottom: 26px;
+    .post-title {
+      font-weight: 700;
+      font-size: 22px;
 
-      .desc-meta {
-        margin-bottom: 10px;
-
-        .date {
-          color: #fff;
-          font-size: 14px;
-        }
+      a {
+        color: #fff;
+        text-decoration: none;
       }
 
-      .post-title {
-        font-weight: 700;
-        font-size: 22px;
-
-        a {
-          color: #fff;
-          text-decoration: none;
-        }
-
-        a:hover {
-          text-decoration: underline;
-        }
+      a:hover {
+        text-decoration: underline;
       }
     }
   }

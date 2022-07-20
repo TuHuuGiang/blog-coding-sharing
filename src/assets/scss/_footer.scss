@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+  margin-top: 80px;
+  height: 400px;
+  border-top: 1px solid #f4f4f9;
+
+  .footer-info-web {
+    flex: 0 0 40%;
+    background: red;
+
+    .links {
+      padding: 20px 0 26px;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .footer-links {
+    flex: 0 0 30%;
+    background: #4bb92f;
+  }
+
+  .footer-widget {
+    flex: 0 0 30%;
+    background: #0078ff;
+  }
+}
